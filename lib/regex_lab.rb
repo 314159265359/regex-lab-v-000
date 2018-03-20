@@ -1,5 +1,9 @@
 def starts_with_a_vowel?(word)
-  puts word.scan(/\b[aeiou]/) 
+  letter = word.scan(/\b[aeiou]/)
+  If letter = a || letter = e ||letter = i ||letter = o ||letter = u ||
+  true
+else
+  false
 
 end
 
